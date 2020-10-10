@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html{
+    padding: 20px;
+    background-color: #60B2E5;
+    font-family: 'Roboto', sans-serif;
+}
+
+#titulo{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 21px;
+}
+
+.contenedor{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contenedorAmin,.contenedorYaser,.contenedorIsma,.contenedorSara{
+    border: 2px solid #60B2E5;
+    width: 20%;
+}
+
+hr{
+    border: 2px solid #60B2E5;
+}
+
+.contenedorAmin{
+    background-color:#fb8b24;
+}
+
+.contenedorYaser{
+    background-color: #9a031e;
+}
+.contenedorIsma{
+    background-color: #0f4c5c;
+}
+
+.contenedorSara{
+    background-color: #5f0f40;
+}
+table{
+    width: 261px;
+    align-content: center;
+    justify-content: center;
+    height: 400px;
+}
+table td{
+    border:2px solid #8e9aaf;
+}
