@@ -26,19 +26,27 @@ var tareas = [
   tarea12,
 ];
 
-var tareasAleatorio = tareas.sort(function () {
-  return Math.random() - 1;
-});
+function aleatorio() {
+  var i, j, k;
+  for (i = tareas.length; i; i--) {
+    j = Math.floor(Math.random() * i);
+    k = tareas[i - 1];
+    tareas[i - 1] = tareas[j];
+    tareas[j] = k;
+  }
 
-document.getElementById("tareaA1").innerHTML = tareasAleatorio[0];
-document.getElementById("tareaA2").innerHTML = tareasAleatorio[1];
-document.getElementById("tareaA3").innerHTML = tareasAleatorio[2];
-document.getElementById("tareaY1").innerHTML = tareasAleatorio[3];
-document.getElementById("tareaY2").innerHTML = tareasAleatorio[4];
-document.getElementById("tareaY3").innerHTML = tareasAleatorio[5];
-document.getElementById("tareaI1").innerHTML = tareasAleatorio[6];
-document.getElementById("tareaI2").innerHTML = tareasAleatorio[7];
-document.getElementById("tareaI3").innerHTML = tareasAleatorio[8];
-document.getElementById("tareaS1").innerHTML = tareasAleatorio[9];
-document.getElementById("tareaS2").innerHTML = tareasAleatorio[10];
-document.getElementById("tareaS3").innerHTML = tareasAleatorio[11];
+  document.getElementById("tareaA1").innerHTML = tareas[0];
+  document.getElementById("tareaA2").innerHTML = tareas[1];
+  document.getElementById("tareaA3").innerHTML = tareas[2];
+  document.getElementById("tareaY1").innerHTML = tareas[3];
+  document.getElementById("tareaY2").innerHTML = tareas[4];
+  document.getElementById("tareaY3").innerHTML = tareas[5];
+  document.getElementById("tareaI1").innerHTML = tareas[6];
+  document.getElementById("tareaI2").innerHTML = tareas[7];
+  document.getElementById("tareaI3").innerHTML = tareas[8];
+  document.getElementById("tareaS1").innerHTML = tareas[9];
+  document.getElementById("tareaS2").innerHTML = tareas[10];
+  document.getElementById("tareaS3").innerHTML = tareas[11];
+}
+
+aleatorio();
