@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 
 html{
     padding: 20px;
@@ -19,13 +18,11 @@ html{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    font-family: 'Oswald', sans-serif;
 }
 
 .contenedorAmin,.contenedorYaser,.contenedorIsma,.contenedorSara{
     border: 2px solid #60B2E5;
     width: 20%;
-    font-size: 17px;
 }
 
 hr{
