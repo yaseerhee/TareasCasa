@@ -49,4 +49,3 @@ function aleatorio() {
   document.getElementById("tareaS3").innerHTML = tareas[11];
 }
 
-aleatorio();

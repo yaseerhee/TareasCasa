@@ -2,7 +2,7 @@
 
 html{
     padding: 20px;
-    background-color: #60B2E5;
+    background-color: #ffffff;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -21,27 +21,23 @@ html{
 }
 
 .contenedorAmin,.contenedorYaser,.contenedorIsma,.contenedorSara{
-    border: 2px solid #60B2E5;
-    width: 20%;
-}
-
-hr{
-    border: 2px solid #60B2E5;
+    width: 21.4%;
+    padding: 15px;
 }
 
 .contenedorAmin{
-    background-color:#fb8b24;
+    background-color:#ffd275;
 }
 
 .contenedorYaser{
-    background-color: #9a031e;
+    background-color: #40798c;
 }
 .contenedorIsma{
-    background-color: #0f4c5c;
+    background-color: #ffd275;
 }
 
 .contenedorSara{
-    background-color: #5f0f40;
+    background-color: #70a9a1;
 }
 table{
     width: 261px;
@@ -50,6 +46,25 @@ table{
     height: 400px;
 }
 table td{
-    border:2px solid #8e9aaf;
+    background-color: #c5edac;
+}
+
+
+#btn1{
+    margin: 25px;
+    height: 50px;
+    width: 150px;
+    padding: .375rem .75rem;
+    border: 1px solid #007bff;
+    border-radius: .25rem;
+    color: #007bff;
+    transition: color .15s ease-in-out,
+    background-color .15s ease-in-out;
+}
+
+#boton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
