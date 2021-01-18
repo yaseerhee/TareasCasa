@@ -7,3 +7,6 @@ Se tarta de un programa que genera de forma aleatoria un reparto de tareas para 
 - Para la estructura he usado *HTML5*.
 - Para el diseño he usado *CSS3*.
 - Para el funcionamiento he usado *JavaScript*.
+
+
+### Nivel: básico :green_book:
